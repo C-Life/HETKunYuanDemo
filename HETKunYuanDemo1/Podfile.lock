@@ -1,0 +1,79 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - HETOpenSDK (2.1.0):
+    - HETOpenSDK/HETOpenSDK (= 2.1.0)
+  - HETOpenSDK/HETMattressDeviceSDK (2.1.0)
+  - HETOpenSDK/HETOpenSDK (2.1.0):
+    - SSZipArchive (= 2.1.2)
+  - HETPublicSDK_WiFiModule/HF_LPT100_V3 (1.0.0)
+  - HETSleepFramework/HETBindSDK (0.0.1)
+  - HETSleepFramework/HETDeviceDetailSDK (0.0.1)
+  - HETSleepFramework/HETDeviceListSDK (0.0.1)
+  - HETSleepFramework/HETOpenSleepCoreSDK (0.0.1)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.14)
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - SAMCategories (0.5.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SSZipArchive (2.1.2)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FMDB (= 2.5)
+  - HETOpenSDK (= 2.1.0)
+  - HETOpenSDK/HETMattressDeviceSDK (= 2.1.0)
+  - HETPublicSDK_WiFiModule/HF_LPT100_V3 (= 1.0.0)
+  - HETSleepFramework/HETBindSDK (from `../HETSleepFramework`)
+  - HETSleepFramework/HETDeviceDetailSDK (from `../HETSleepFramework`)
+  - HETSleepFramework/HETDeviceListSDK (from `../HETSleepFramework`)
+  - HETSleepFramework/HETOpenSleepCoreSDK (from `../HETSleepFramework`)
+  - MagicalRecord (= 2.3.2)
+  - Masonry (= 1.1.0)
+  - MBProgressHUD (= 1.0.0)
+  - MJExtension (= 3.0.13)
+  - MJRefresh (= 3.1.14)
+  - ReactiveCocoa (= 2.4.7)
+  - SAMCategories (= 0.5.2)
+  - SDWebImage
+  - YYModel (= 1.0.4)
+
+EXTERNAL SOURCES:
+  HETSleepFramework:
+    :path: ../HETSleepFramework
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  HETOpenSDK: 11d8f1a5552b481a773400e545fcedff04cc55e4
+  HETPublicSDK_WiFiModule: 612de92f2765fee3558c61f2cb7f31216e0fea87
+  HETSleepFramework: 5429bff81320b9dac3e274364b40d19aeb052184
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 6642e35b3227a5447b9fd5e17c552c90196c9859
+  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
+  SAMCategories: bf8287f7961a0b343168d1fee16338dc1626ea39
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SSZipArchive: d4009d2ce5520a421f231fd97028cc0e2667eed8
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 4a6f065e5792ffd948a0d95a46762b6f6f50cb69
+
+COCOAPODS: 1.4.0

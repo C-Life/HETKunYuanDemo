@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B44C89021928548000EAAA4 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB18219127C300DD8846 /* HomePageVC.m */; };
+		1B44C8912192854B000EAAA4 /* AuthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB16219127C300DD8846 /* AuthVC.m */; };
+		1BAECB2B219127C400DD8846 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB0D219127C300DD8846 /* AppDelegate.m */; };
+		1BAECB2C219127C400DD8846 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB11219127C300DD8846 /* Tools.m */; };
+		1BAECB2F219127C400DD8846 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB1A219127C300DD8846 /* Model.xcdatamodeld */; };
+		1BAECB30219127C400DD8846 /* HETGlobalMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB20219127C300DD8846 /* HETGlobalMacro.m */; };
+		1BAECB31219127C400DD8846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB22219127C300DD8846 /* Assets.xcassets */; };
+		1BAECB32219127C400DD8846 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB23219127C400DD8846 /* Info.plist */; };
+		1BAECB33219127C400DD8846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB24219127C400DD8846 /* main.m */; };
+		1BAECB34219127C400DD8846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB27219127C400DD8846 /* LaunchScreen.storyboard */; };
+		1BAECB35219127C400DD8846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB29219127C400DD8846 /* Main.storyboard */; };
+		1BD26EE22193034400F1E715 /* HETOpenSleepCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */; };
+		1BD26EE32193034400F1E715 /* HETDeviceDetailSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */; };
+		1BD26EE42193034400F1E715 /* HETAirConditionBoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */; };
+		1BD26EE52193034400F1E715 /* HETBindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDF2193034400F1E715 /* HETBindSDK.framework */; };
+		1BD26EE62193034400F1E715 /* HETDeviceListSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */; };
+		1BD26EE82193034A00F1E715 /* HETAirConditionBoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */; };
+		1BD26EE92193034A00F1E715 /* HETAirConditionBoxSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1BD26EEA2193034A00F1E715 /* HETBindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDF2193034400F1E715 /* HETBindSDK.framework */; };
+		1BD26EEB2193034A00F1E715 /* HETBindSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDF2193034400F1E715 /* HETBindSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1BD26EEC2193034A00F1E715 /* HETDeviceDetailSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */; };
+		1BD26EED2193034A00F1E715 /* HETDeviceDetailSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1BD26EEE2193034A00F1E715 /* HETDeviceListSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */; };
+		1BD26EEF2193034A00F1E715 /* HETDeviceListSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1BD26EF02193034A00F1E715 /* HETOpenSleepCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */; };
+		1BD26EF12193034A00F1E715 /* HETOpenSleepCoreSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1BD26EF5219304DB00F1E715 /* HETSleepReportSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */; };
+		1BD26EF6219304E500F1E715 /* HETSleepReportSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */; };
+		1BD26EF7219304E500F1E715 /* HETSleepReportSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F550C148C015D82121190AEA /* libPods-HETKunYuanDemo1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB19D88AD27F220819BD32AF /* libPods-HETKunYuanDemo1.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F1990DB2192F64200E208CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1BD26EEB2193034A00F1E715 /* HETBindSDK.framework in Embed Frameworks */,
+				1BD26EF7219304E500F1E715 /* HETSleepReportSDK.framework in Embed Frameworks */,
+				1BD26EF12193034A00F1E715 /* HETOpenSleepCoreSDK.framework in Embed Frameworks */,
+				1BD26EEF2193034A00F1E715 /* HETDeviceListSDK.framework in Embed Frameworks */,
+				1BD26EED2193034A00F1E715 /* HETDeviceDetailSDK.framework in Embed Frameworks */,
+				1BD26EE92193034A00F1E715 /* HETAirConditionBoxSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1BAECAF12191268A00DD8846 /* HETKunYuanDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HETKunYuanDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAECB0C219127C300DD8846 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BAECB0D219127C300DD8846 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BAECB10219127C300DD8846 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		1BAECB11219127C300DD8846 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		1BAECB15219127C300DD8846 /* AuthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthVC.h; sourceTree = "<group>"; };
+		1BAECB16219127C300DD8846 /* AuthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthVC.m; sourceTree = "<group>"; };
+		1BAECB17219127C300DD8846 /* HomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageVC.h; sourceTree = "<group>"; };
+		1BAECB18219127C300DD8846 /* HomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageVC.m; sourceTree = "<group>"; };
+		1BAECB1B219127C300DD8846 /* Model 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 2.xcdatamodel"; sourceTree = "<group>"; };
+		1BAECB1C219127C300DD8846 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1BAECB1E219127C300DD8846 /* Defination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defination.h; sourceTree = "<group>"; };
+		1BAECB1F219127C300DD8846 /* HETGlobalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HETGlobalMacro.h; sourceTree = "<group>"; };
+		1BAECB20219127C300DD8846 /* HETGlobalMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HETGlobalMacro.m; sourceTree = "<group>"; };
+		1BAECB21219127C300DD8846 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1BAECB22219127C300DD8846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BAECB23219127C400DD8846 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAECB24219127C400DD8846 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BAECB28219127C400DD8846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BAECB2A219127C400DD8846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		1BAECB36219127DC00DD8846 /* HETKunYuanDemo1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HETKunYuanDemo1.entitlements; sourceTree = "<group>"; };
+		1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETOpenSleepCoreSDK.framework; sourceTree = "<group>"; };
+		1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETDeviceDetailSDK.framework; sourceTree = "<group>"; };
+		1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETAirConditionBoxSDK.framework; sourceTree = "<group>"; };
+		1BD26EDF2193034400F1E715 /* HETBindSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETBindSDK.framework; sourceTree = "<group>"; };
+		1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETDeviceListSDK.framework; sourceTree = "<group>"; };
+		1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETSleepReportSDK.framework; sourceTree = "<group>"; };
+		34418124DDDEB3B5CE8D41E5 /* Pods-HETKunYuanDemo1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HETKunYuanDemo1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1.debug.xcconfig"; sourceTree = "<group>"; };
+		65CB198E1C6B9BE28C26BAAF /* Pods-HETKunYuanDemo1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HETKunYuanDemo1.release.xcconfig"; path = "Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1.release.xcconfig"; sourceTree = "<group>"; };
+		FB19D88AD27F220819BD32AF /* libPods-HETKunYuanDemo1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HETKunYuanDemo1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BAECAEE2191268A00DD8846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD26EE22193034400F1E715 /* HETOpenSleepCoreSDK.framework in Frameworks */,
+				1BD26EE52193034400F1E715 /* HETBindSDK.framework in Frameworks */,
+				1BD26EF6219304E500F1E715 /* HETSleepReportSDK.framework in Frameworks */,
+				1BD26EEC2193034A00F1E715 /* HETDeviceDetailSDK.framework in Frameworks */,
+				1BD26EE82193034A00F1E715 /* HETAirConditionBoxSDK.framework in Frameworks */,
+				1BD26EE32193034400F1E715 /* HETDeviceDetailSDK.framework in Frameworks */,
+				1BD26EEA2193034A00F1E715 /* HETBindSDK.framework in Frameworks */,
+				1BD26EE42193034400F1E715 /* HETAirConditionBoxSDK.framework in Frameworks */,
+				1BD26EF5219304DB00F1E715 /* HETSleepReportSDK.framework in Frameworks */,
+				F550C148C015D82121190AEA /* libPods-HETKunYuanDemo1.a in Frameworks */,
+				1BD26EF02193034A00F1E715 /* HETOpenSleepCoreSDK.framework in Frameworks */,
+				1BD26EEE2193034A00F1E715 /* HETDeviceListSDK.framework in Frameworks */,
+				1BD26EE62193034400F1E715 /* HETDeviceListSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BAECAE82191268A00DD8846 = {
+			isa = PBXGroup;
+			children = (
+				1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */,
+				1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */,
+				1BD26EDF2193034400F1E715 /* HETBindSDK.framework */,
+				1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */,
+				1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */,
+				1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */,
+				1BAECAF32191268A00DD8846 /* HETKunYuanDemo1 */,
+				1BAECAF22191268A00DD8846 /* Products */,
+				216AF1457A2039594089CA18 /* Pods */,
+				2A887044588887F735B68E52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BAECAF22191268A00DD8846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECAF12191268A00DD8846 /* HETKunYuanDemo1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BAECAF32191268A00DD8846 /* HETKunYuanDemo1 */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB36219127DC00DD8846 /* HETKunYuanDemo1.entitlements */,
+				1BAECB0B219127C300DD8846 /* AppDelegate */,
+				1BAECB26219127C400DD8846 /* Base.lproj */,
+				1BAECB0E219127C300DD8846 /* Helper */,
+				1BAECB22219127C300DD8846 /* Assets.xcassets */,
+				1BAECB23219127C400DD8846 /* Info.plist */,
+				1BAECB1D219127C300DD8846 /* Macro */,
+				1BAECB24219127C400DD8846 /* main.m */,
+				1BAECB13219127C300DD8846 /* ViewControllers */,
+			);
+			path = HETKunYuanDemo1;
+			sourceTree = "<group>";
+		};
+		1BAECB0B219127C300DD8846 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB0C219127C300DD8846 /* AppDelegate.h */,
+				1BAECB0D219127C300DD8846 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1BAECB0E219127C300DD8846 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB0F219127C300DD8846 /* Tools */,
+				1BAECB12219127C300DD8846 /* Views */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1BAECB0F219127C300DD8846 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB10219127C300DD8846 /* Tools.h */,
+				1BAECB11219127C300DD8846 /* Tools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1BAECB12219127C300DD8846 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1BAECB13219127C300DD8846 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB14219127C300DD8846 /* HomePage */,
+				1BAECB19219127C300DD8846 /* Model */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1BAECB14219127C300DD8846 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB15219127C300DD8846 /* AuthVC.h */,
+				1BAECB16219127C300DD8846 /* AuthVC.m */,
+				1BAECB17219127C300DD8846 /* HomePageVC.h */,
+				1BAECB18219127C300DD8846 /* HomePageVC.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		1BAECB19219127C300DD8846 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB1A219127C300DD8846 /* Model.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BAECB1D219127C300DD8846 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB1E219127C300DD8846 /* Defination.h */,
+				1BAECB1F219127C300DD8846 /* HETGlobalMacro.h */,
+				1BAECB20219127C300DD8846 /* HETGlobalMacro.m */,
+				1BAECB21219127C300DD8846 /* PrefixHeader.pch */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		1BAECB26219127C400DD8846 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1BAECB27219127C400DD8846 /* LaunchScreen.storyboard */,
+				1BAECB29219127C400DD8846 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = ../../../HETKunYuanDemo/HETKunYuanDemo/Base.lproj;
+			sourceTree = "<group>";
+		};
+		216AF1457A2039594089CA18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34418124DDDEB3B5CE8D41E5 /* Pods-HETKunYuanDemo1.debug.xcconfig */,
+				65CB198E1C6B9BE28C26BAAF /* Pods-HETKunYuanDemo1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A887044588887F735B68E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB19D88AD27F220819BD32AF /* libPods-HETKunYuanDemo1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BAECAF02191268A00DD8846 /* HETKunYuanDemo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAECB072191268C00DD8846 /* Build configuration list for PBXNativeTarget "HETKunYuanDemo1" */;
+			buildPhases = (
+				21913E3E88F38B95CF5EC36D /* [CP] Check Pods Manifest.lock */,
+				1BAECAED2191268A00DD8846 /* Sources */,
+				1BAECAEE2191268A00DD8846 /* Frameworks */,
+				1BAECAEF2191268A00DD8846 /* Resources */,
+				69D84E01357E3F48534B7316 /* [CP] Embed Pods Frameworks */,
+				1D881EBA67805C38BEF8AF2B /* [CP] Copy Pods Resources */,
+				5F1990DB2192F64200E208CB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HETKunYuanDemo1;
+			productName = HETKunYuanDemo1;
+			productReference = 1BAECAF12191268A00DD8846 /* HETKunYuanDemo1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BAECAE92191268A00DD8846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = JustinYang;
+				TargetAttributes = {
+					1BAECAF02191268A00DD8846 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1BAECAEC2191268A00DD8846 /* Build configuration list for PBXProject "HETKunYuanDemo1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BAECAE82191268A00DD8846;
+			productRefGroup = 1BAECAF22191268A00DD8846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BAECAF02191268A00DD8846 /* HETKunYuanDemo1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BAECAEF2191268A00DD8846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAECB34219127C400DD8846 /* LaunchScreen.storyboard in Resources */,
+				1BAECB32219127C400DD8846 /* Info.plist in Resources */,
+				1BAECB31219127C400DD8846 /* Assets.xcassets in Resources */,
+				1BAECB35219127C400DD8846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D881EBA67805C38BEF8AF2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1-resources.sh",
+				"${PODS_ROOT}/HETOpenSDK/SDK/HETOpenSDK.bundle",
+				"${PODS_ROOT}/../../HETSleepFramework/HETSleepFramework/SDK/HETDeviceListSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HETSleepFramework/HETBindSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HETSleepFramework/HETDeviceDetailSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HETSleepFramework/HETOpenSleepCoreSDK.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAMCategories/SAMCategories/SAMCategories.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETOpenSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETDeviceListSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETBindSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETDeviceDetailSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETOpenSleepCoreSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMCategories.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21913E3E88F38B95CF5EC36D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HETKunYuanDemo1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69D84E01357E3F48534B7316 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1-frameworks.sh",
+				"${PODS_ROOT}/HETPublicSDK_WiFiModule/SDK/HETPublicSDK_WiFiModule_HF_LPT100_V3/HETPublicSDK_WiFiModule_HF_LPT100_V3.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HETPublicSDK_WiFiModule_HF_LPT100_V3.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BAECAED2191268A00DD8846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAECB30219127C400DD8846 /* HETGlobalMacro.m in Sources */,
+				1BAECB2B219127C400DD8846 /* AppDelegate.m in Sources */,
+				1B44C89021928548000EAAA4 /* HomePageVC.m in Sources */,
+				1BAECB2F219127C400DD8846 /* Model.xcdatamodeld in Sources */,
+				1BAECB33219127C400DD8846 /* main.m in Sources */,
+				1BAECB2C219127C400DD8846 /* Tools.m in Sources */,
+				1B44C8912192854B000EAAA4 /* AuthVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BAECB27219127C400DD8846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAECB28219127C400DD8846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BAECB29219127C400DD8846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAECB2A219127C400DD8846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BAECB052191268C00DD8846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BAECB062191268C00DD8846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BAECB082191268C00DD8846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34418124DDDEB3B5CE8D41E5 /* Pods-HETKunYuanDemo1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HETKunYuanDemo1/Macro/PrefixHEader.pch";
+				INFOPLIST_FILE = HETKunYuanDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Het.HETKunYuanDemo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = developAll;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BAECB092191268C00DD8846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65CB198E1C6B9BE28C26BAAF /* Pods-HETKunYuanDemo1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HETKunYuanDemo1/Macro/PrefixHEader.pch";
+				INFOPLIST_FILE = HETKunYuanDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Het.HETKunYuanDemo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BAECAEC2191268A00DD8846 /* Build configuration list for PBXProject "HETKunYuanDemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAECB052191268C00DD8846 /* Debug */,
+				1BAECB062191268C00DD8846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BAECB072191268C00DD8846 /* Build configuration list for PBXNativeTarget "HETKunYuanDemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAECB082191268C00DD8846 /* Debug */,
+				1BAECB092191268C00DD8846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BAECB1A219127C300DD8846 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BAECB1B219127C300DD8846 /* Model 2.xcdatamodel */,
+				1BAECB1C219127C300DD8846 /* Model.xcdatamodel */,
+			);
+			currentVersion = 1BAECB1B219127C300DD8846 /* Model 2.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1BAECAE92191268A00DD8846 /* Project object */;
+}

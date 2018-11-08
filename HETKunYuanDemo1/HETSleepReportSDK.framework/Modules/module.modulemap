@@ -1,0 +1,6 @@
+framework module HETSleepReportSDK {
+  umbrella header "HETSleepReportSDK.h"
+
+  export *
+  module * { export * }
+}

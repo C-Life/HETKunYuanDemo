@@ -1,0 +1,32 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/C-Life/HETSDKSpecs.git'
+
+platform :ios, '8.0'
+    
+
+
+target 'HETKunYuanDemo1' do
+    pod 'MJRefresh',                             '3.1.14'
+    pod 'MagicalRecord',                         '2.3.2'
+    pod 'SAMCategories',                         '0.5.2'
+    pod 'ReactiveCocoa',                         '2.4.7'
+    pod 'MBProgressHUD',                         '1.0.0'
+    pod 'Masonry',                               '1.1.0'
+    pod 'SDWebImage'
+    pod 'FMDB',                                    '2.5'
+    pod 'HETOpenSDK',                             '2.1.0'
+    pod 'MJExtension',                           '3.0.13'
+    pod 'HETOpenSDK',                            '2.1.0'
+    pod 'YYModel',                              '1.0.4'
+    pod 'HETOpenSDK/HETMattressDeviceSDK',            '2.1.0'
+    pod 'HETPublicSDK_WiFiModule/HF_LPT100_V3','1.0.0'
+    
+#    pod 'HETSleepFramework/HETOpenSleepCoreSDK',          :path => "../HETSleepFramework"
+#    pod 'HETSleepFramework/HETBindSDK',                    :path => "../HETSleepFramework"
+#    pod 'HETSleepFramework/HETDeviceDetailSDK',          :path => "../HETSleepFramework"
+#    pod 'HETSleepFramework/HETDeviceListSDK',          :path => "../HETSleepFramework"
+
+
+end
+
+
