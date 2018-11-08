@@ -8,7 +8,7 @@
 
 #import "HETGlobalMacro.h"
 
-#error 请使用正确的 appId和 AppSecret
+//#error 请使用正确的 appId和 AppSecret
 NSString *const kHETAppId = @"xxxxx";
 NSString *const kHETAppSecret = @"xxxxxxxxx";
 

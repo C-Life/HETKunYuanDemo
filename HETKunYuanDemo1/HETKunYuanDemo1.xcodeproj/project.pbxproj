@@ -16,8 +16,6 @@
 		1BAECB31219127C400DD8846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB22219127C300DD8846 /* Assets.xcassets */; };
 		1BAECB32219127C400DD8846 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB23219127C400DD8846 /* Info.plist */; };
 		1BAECB33219127C400DD8846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB24219127C400DD8846 /* main.m */; };
-		1BAECB34219127C400DD8846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB27219127C400DD8846 /* LaunchScreen.storyboard */; };
-		1BAECB35219127C400DD8846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB29219127C400DD8846 /* Main.storyboard */; };
 		1BD26EE22193034400F1E715 /* HETOpenSleepCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */; };
 		1BD26EE32193034400F1E715 /* HETDeviceDetailSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */; };
 		1BD26EE42193034400F1E715 /* HETAirConditionBoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */; };
@@ -36,6 +34,8 @@
 		1BD26EF5219304DB00F1E715 /* HETSleepReportSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */; };
 		1BD26EF6219304E500F1E715 /* HETSleepReportSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */; };
 		1BD26EF7219304E500F1E715 /* HETSleepReportSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1BD26EFD21941D1100F1E715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD26EF921941D1100F1E715 /* LaunchScreen.storyboard */; };
+		1BD26EFE21941D1100F1E715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD26EFB21941D1100F1E715 /* Main.storyboard */; };
 		F550C148C015D82121190AEA /* libPods-HETKunYuanDemo1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB19D88AD27F220819BD32AF /* libPods-HETKunYuanDemo1.a */; };
 /* End PBXBuildFile section */
 
@@ -77,8 +77,6 @@
 		1BAECB22219127C300DD8846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BAECB23219127C400DD8846 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BAECB24219127C400DD8846 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1BAECB28219127C400DD8846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1BAECB2A219127C400DD8846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		1BAECB36219127DC00DD8846 /* HETKunYuanDemo1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HETKunYuanDemo1.entitlements; sourceTree = "<group>"; };
 		1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETOpenSleepCoreSDK.framework; sourceTree = "<group>"; };
 		1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETDeviceDetailSDK.framework; sourceTree = "<group>"; };
@@ -86,6 +84,8 @@
 		1BD26EDF2193034400F1E715 /* HETBindSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETBindSDK.framework; sourceTree = "<group>"; };
 		1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETDeviceListSDK.framework; sourceTree = "<group>"; };
 		1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETSleepReportSDK.framework; sourceTree = "<group>"; };
+		1BD26EFA21941D1100F1E715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BD26EFC21941D1100F1E715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		34418124DDDEB3B5CE8D41E5 /* Pods-HETKunYuanDemo1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HETKunYuanDemo1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1.debug.xcconfig"; sourceTree = "<group>"; };
 		65CB198E1C6B9BE28C26BAAF /* Pods-HETKunYuanDemo1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HETKunYuanDemo1.release.xcconfig"; path = "Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1.release.xcconfig"; sourceTree = "<group>"; };
 		FB19D88AD27F220819BD32AF /* libPods-HETKunYuanDemo1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HETKunYuanDemo1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,8 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				1BAECB36219127DC00DD8846 /* HETKunYuanDemo1.entitlements */,
+				1BD26EF821941D1100F1E715 /* Base.lproj */,
 				1BAECB0B219127C300DD8846 /* AppDelegate */,
-				1BAECB26219127C400DD8846 /* Base.lproj */,
 				1BAECB0E219127C300DD8846 /* Helper */,
 				1BAECB22219127C300DD8846 /* Assets.xcassets */,
 				1BAECB23219127C400DD8846 /* Info.plist */,
@@ -228,14 +228,13 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
-		1BAECB26219127C400DD8846 /* Base.lproj */ = {
+		1BD26EF821941D1100F1E715 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				1BAECB27219127C400DD8846 /* LaunchScreen.storyboard */,
-				1BAECB29219127C400DD8846 /* Main.storyboard */,
+				1BD26EF921941D1100F1E715 /* LaunchScreen.storyboard */,
+				1BD26EFB21941D1100F1E715 /* Main.storyboard */,
 			);
-			name = Base.lproj;
-			path = ../../../HETKunYuanDemo/HETKunYuanDemo/Base.lproj;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		216AF1457A2039594089CA18 /* Pods */ = {
@@ -321,10 +320,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BAECB34219127C400DD8846 /* LaunchScreen.storyboard in Resources */,
+				1BD26EFD21941D1100F1E715 /* LaunchScreen.storyboard in Resources */,
 				1BAECB32219127C400DD8846 /* Info.plist in Resources */,
 				1BAECB31219127C400DD8846 /* Assets.xcassets in Resources */,
-				1BAECB35219127C400DD8846 /* Main.storyboard in Resources */,
+				1BD26EFE21941D1100F1E715 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,10 +340,6 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1-resources.sh",
 				"${PODS_ROOT}/HETOpenSDK/SDK/HETOpenSDK.bundle",
-				"${PODS_ROOT}/../../HETSleepFramework/HETSleepFramework/SDK/HETDeviceListSDK.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/HETSleepFramework/HETBindSDK.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/HETSleepFramework/HETDeviceDetailSDK.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/HETSleepFramework/HETOpenSleepCoreSDK.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SAMCategories/SAMCategories/SAMCategories.bundle",
 			);
@@ -352,13 +347,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETOpenSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETDeviceListSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETBindSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETDeviceDetailSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HETOpenSleepCoreSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMCategories.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -429,18 +418,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1BAECB27219127C400DD8846 /* LaunchScreen.storyboard */ = {
+		1BD26EF921941D1100F1E715 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1BAECB28219127C400DD8846 /* Base */,
+				1BD26EFA21941D1100F1E715 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		1BAECB29219127C400DD8846 /* Main.storyboard */ = {
+		1BD26EFB21941D1100F1E715 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1BAECB2A219127C400DD8846 /* Base */,
+				1BD26EFC21941D1100F1E715 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
