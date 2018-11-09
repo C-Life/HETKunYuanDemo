@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AuthVC : UIViewController
-@property (nonnull,copy) void (^dismiss)(void);
+@property (nonnull,copy) void (^dismiss)(NSString * _Nullable openId);
 @end
 
 NS_ASSUME_NONNULL_END

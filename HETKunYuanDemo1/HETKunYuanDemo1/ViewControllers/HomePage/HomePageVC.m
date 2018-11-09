@@ -10,16 +10,17 @@
 #import "AuthVC.h"
 #import "OpenIdInfo+CoreDataProperties.h"
 
-@interface HomePageVC ()
-//user interface
-@property (weak, nonatomic) IBOutlet UISegmentedControl *seg;
-@property (nonatomic,readonly,weak) UIViewController *authVC;
-@property (weak, nonatomic) IBOutlet UITextField *openIdTextField;
-@property (weak, nonatomic) IBOutlet UIView *authView;
 
-@property (nonatomic,copy)NSString *errorMsg;
-@property (nonatomic,copy)NSString *loadingMsg;
-@end
+@interface HomePageVC ()
+    //user interface
+    @property (weak, nonatomic) IBOutlet UISegmentedControl *seg;
+    @property (nonatomic,readonly,weak) UIViewController *authVC;
+    @property (weak, nonatomic) IBOutlet UITextField *openIdTextField;
+    @property (weak, nonatomic) IBOutlet UIView *authView;
+    
+    @property (nonatomic,copy)NSString *errorMsg;
+    @property (nonatomic,copy)NSString *loadingMsg;
+    @end
 
 @implementation HomePageVC
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
@@ -29,23 +30,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
- 
+    
     [self initData];
     [self initViews];
     [self.navigationController.navigationBar setBarTintColor:[UIColor redColor]];
-}
-
-
--(void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
     
     [self needShowAuthVCWithEnv:self.seg.selectedSegmentIndex];
+}
+    
+    
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
     
 }
     
 #pragma mark - private method
 -(void)initData{
-    [[RACObserve(self, errorMsg) distinctUntilChanged] subscribeNext:^(id x) {
+    [RACObserve(self, errorMsg) subscribeNext:^(id x) {
         if (x == nil) {
             return ;
         }
@@ -53,9 +54,9 @@
             [HETCommonHelp showAutoDissmissWithMessage:x];
         });
     }];
-
-    [[RACObserve(self, loadingMsg) distinctUntilChanged] subscribeNext:^(id x) {
-
+    
+    [RACObserve(self, loadingMsg) subscribeNext:^(id x) {
+        
         dispatch_async(dispatch_get_main_queue(), ^{
             x == nil?[HETCommonHelp HidHud]:[HETCommonHelp showCustomHudtitle:x];
         });
@@ -67,16 +68,17 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSNumber *env = [defaults objectForKey:kHETEnviroment];
     self.seg.selectedSegmentIndex = env.integerValue;
-  
-   
+    
+    
 }
 -(void)needShowAuthVCWithEnv:(NSInteger)env{
     AuthVC *vc = self.childViewControllers.firstObject;
     @weakify(self);
     @weakify(vc);
-    vc.dismiss = ^{
+    vc.dismiss = ^(NSString * _Nullable openId) {
         @strongify(self);
         @strongify(vc);
+        self.openIdTextField.text = openId;
         [vc.view mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.top.and.leading.and.trailing.equalTo(self.view);
             make.height.equalTo(@0);
@@ -87,13 +89,13 @@
             self.authView.hidden = YES;
         }];
     };
+    
     [vc.view mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.top.and.leading.and.trailing.equalTo(self.view);
         make.height.equalTo(@0);
     }];
     [self.view layoutIfNeeded];
     self.authView.hidden = YES;
-    
     NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"OpenIdInfo"];
     
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"enviroment == %d",env];
@@ -111,22 +113,19 @@
             [self.view layoutIfNeeded];
         }];
     }else{ //二次授权
-        
-        static dispatch_once_t onceToken;
-        dispatch_once(&onceToken, ^{
-            [self secondAuthWithOpenIdInfo:arr.firstObject];
-        });
+        OpenIdInfo *info = arr.firstObject;
+        self.openIdTextField.text = info.openId;
+        [self secondAuthWithOpenId:info.openId];
     }
 }
--(void)secondAuthWithOpenIdInfo:(OpenIdInfo *)info{
-    self.openIdTextField.text = info.openId;
+-(void)secondAuthWithOpenId:(NSString *)openId {
     __block NSString *authCode;
     __block NSString *tokenStr;
     self.loadingMsg = @"正在二次授权";
     dispatch_group_t group = dispatch_group_create();
     
     dispatch_group_enter(group);
-    [[HETThirdCloudAuthorize shareInstance] getAuthorizationCodeWithAccount:nil withOpenId:info.openId success:^(id responseObject) {
+    [[HETThirdCloudAuthorize shareInstance] getAuthorizationCodeWithAccount:nil withOpenId:openId success:^(id responseObject) {
         
         NSString * authorizationCode = [responseObject valueForKeyPath:@"data.authorizationCode"];
         NSLog(@"authorizationCode : %@",authorizationCode);
@@ -196,12 +195,16 @@
         
         NSString *reqStr = [NSString stringWithFormat:@"appId=%@&appSecret=%@&timestamp=%@&authorizationCode=%@&accessToken=%@",kHETAppId,kHETAppSecret,Tools.timestamp,authCode,tokenStr];
         // /v1/app/open/cloud/token /v1/cloud/user/checkAuth
-        NSString *urlStr = [NSString stringWithFormat:@"%@/v1/app/open/cloud/user/checkAuth",Tools.getHostName];
+        NSString *urlStr = [NSString stringWithFormat:@"%@/v1/cloud/user/checkAuth",Tools.getHostName];
+        if (env.integerValue == 0) {
+            urlStr = [NSString stringWithFormat:@"%@/v1/app/open/cloud/user/checkAuth",Tools.getHostName];
+        }
+        
         NSURL *url = [NSURL URLWithString:urlStr];
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
         request.HTTPMethod = @"POST";
         request.HTTPBody = [reqStr dataUsingEncoding:NSUTF8StringEncoding];
-
+        
         NSURLSession *session = [NSURLSession sharedSession];
         NSURLSessionTask *task = [session dataTaskWithRequest:request
                                             completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
@@ -217,7 +220,7 @@
                                       NSString *code=[responseObject objectForKey:@"code"];
                                       if(code.intValue!=0)
                                       {
-                                          self.errorMsg = @"无法获取随机码,请重新授权";
+                                          self.errorMsg = responseObject[@"msg"];
                                           return;
                                       }else{
                                           NSDictionary *dataDic = [responseObject objectForKey:@"data"];
@@ -249,9 +252,9 @@
             self.errorMsg = @"第二次授权失败,请重新授权";
         }
     });
-   
+    
 }
-
+    
 -(void)saveOpenId:(NSString *)openId{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSNumber *env = [defaults objectForKey:kHETEnviroment];
@@ -261,8 +264,15 @@
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"enviroment == %d",env.integerValue];
     request.predicate = predicate;
     NSArray *arr = [AppDelegate.context executeFetchRequest:request error:nil];
-    OpenIdInfo *info = arr.firstObject;
-
+    OpenIdInfo *info = nil;
+    if (arr.count == 0) {
+         info = [NSEntityDescription insertNewObjectForEntityForName:@"OpenIdInfo" inManagedObjectContext:AppDelegate.context];
+        info.enviroment = env.integerValue;
+        info.openId = openId;
+    }else{
+        info = arr.firstObject;
+    }
+    
     info.openId = openId;
     
     [AppDelegate.context save:nil];
@@ -271,21 +281,19 @@
 }
 #pragma mark - get set method
 -(UIViewController *)authVC{
-     return  self.childViewControllers.firstObject;
+    return  self.childViewControllers.firstObject;
 }
-
+    
 -(void)setErrorMsg:(NSString *)errorMsg{
     self.loadingMsg = nil;
     _errorMsg = errorMsg;
 }
-
+    
 - (IBAction)segHandle:(UISegmentedControl *)sender {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSNumber *env = [defaults objectForKey:kHETEnviroment];
     if ([env integerValue] != sender.selectedSegmentIndex ) {
-        [defaults setObject:@(sender.selectedSegmentIndex) forKey:kHETEnviroment];
-        [defaults synchronize];
-        [AppDelegate enviromentSetting:sender.numberOfSegments];
+        [AppDelegate enviromentSetting:sender.selectedSegmentIndex];
         [self needShowAuthVCWithEnv:sender.selectedSegmentIndex];
     }
 }
@@ -293,9 +301,10 @@
     AuthVC *vc = self.childViewControllers.firstObject;
     @weakify(self);
     @weakify(vc);
-    vc.dismiss = ^{
+    vc.dismiss = ^(NSString * _Nullable openId){
         @strongify(self);
         @strongify(vc);
+        self.openIdTextField.text = openId;
         [vc.view mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.top.and.leading.and.trailing.equalTo(self.view);
             make.height.equalTo(@0);
@@ -324,19 +333,39 @@
     }];
 }
 - (IBAction)pushToMattress:(id)sender {
+    if ([[HETAuthorize shareManager] isAuthenticated] == NO) {
+        self.errorMsg = @"您还为在Het授权";
+        return;
+    }
     UIViewController *vc = [TargetHETDeviceList getDeviceListWithType:HETDeviceTypeMattress];
     [self.navigationController pushViewController:vc animated:YES];
 }
-
+    
 - (IBAction)pushToAirBox:(id)sender {
+    if ([[HETAuthorize shareManager] isAuthenticated] == NO) {
+        self.errorMsg = @"您还未在Het授权";
+        return;
+    }
     UIViewController *vc = [TargetHETDeviceList getDeviceListWithType:HETDeviceTypeAirBox];
     [self.navigationController pushViewController:vc animated:YES];
 }
-
+    
 - (IBAction)pushToSleepReport:(id)sender {
+    if ([[HETAuthorize shareManager] isAuthenticated] == NO) {
+        self.errorMsg = @"您还未在Het授权";
+        return;
+    }
     UIViewController * vc = [TargetHETSleepReport getSleepReportVC];
     [self.navigationController pushViewController:vc animated:YES];
 }
-
-
+    
+- (IBAction)manualAuth:(id)sender {
+    if (self.openIdTextField.text.length < 32) {
+        self.errorMsg = @"请输入正确的openId";
+        return;
+    }
+    
+    [self secondAuthWithOpenId:self.openIdTextField.text];
+}
+    
 @end

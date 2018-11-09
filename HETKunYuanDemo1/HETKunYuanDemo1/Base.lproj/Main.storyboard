@@ -60,8 +60,15 @@
                                             <rect key="frame" x="80" y="86.5" width="263" height="30"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
                                         </textField>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFY-8V-r3x">
+                                            <rect key="frame" x="201" y="132" width="142" height="30"/>
+                                            <state key="normal" title="使用OpenId二次授权"/>
+                                            <connections>
+                                                <action selector="manualAuth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JGZ-Uj-3O4"/>
+                                            </connections>
+                                        </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYX-fy-Vxz">
                                             <rect key="frame" x="16" y="148.5" width="62" height="30"/>
                                             <state key="normal" title="睡眠带子"/>
@@ -106,6 +113,7 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="iDQ-u2-55E" firstAttribute="width" secondItem="0er-DJ-Sbp" secondAttribute="width" id="0oc-HH-iOd"/>
+                                        <constraint firstItem="NFY-8V-r3x" firstAttribute="trailing" secondItem="2B1-UQ-nmb" secondAttribute="trailing" id="3DA-dB-zXX"/>
                                         <constraint firstItem="0er-DJ-Sbp" firstAttribute="top" secondItem="cYX-fy-Vxz" secondAttribute="bottom" constant="32" id="3Im-78-VB8"/>
                                         <constraint firstItem="iDQ-u2-55E" firstAttribute="height" secondItem="0er-DJ-Sbp" secondAttribute="height" id="5Ug-y5-Klz"/>
                                         <constraint firstItem="Hzy-sf-Vsc" firstAttribute="leading" secondItem="xC8-Te-sWY" secondAttribute="leading" constant="16" id="Cue-K9-jqv"/>
@@ -113,6 +121,7 @@
                                         <constraint firstAttribute="bottom" secondItem="e62-o5-ieo" secondAttribute="bottom" constant="100" id="MKr-jn-v3S"/>
                                         <constraint firstItem="cYX-fy-Vxz" firstAttribute="top" secondItem="2B1-UQ-nmb" secondAttribute="bottom" constant="32" id="Pan-za-eqY"/>
                                         <constraint firstItem="2B1-UQ-nmb" firstAttribute="leading" secondItem="WbG-RU-Vho" secondAttribute="trailing" constant="8" id="R8k-BD-qqA"/>
+                                        <constraint firstItem="NFY-8V-r3x" firstAttribute="top" secondItem="2B1-UQ-nmb" secondAttribute="bottom" constant="15.5" id="SCw-wg-HVr"/>
                                         <constraint firstAttribute="trailing" secondItem="yak-Rw-ajO" secondAttribute="trailing" id="UCf-qH-Pb6"/>
                                         <constraint firstItem="cYX-fy-Vxz" firstAttribute="leading" secondItem="xC8-Te-sWY" secondAttribute="leading" constant="16" id="Usi-08-4cH"/>
                                         <constraint firstItem="WbG-RU-Vho" firstAttribute="leading" secondItem="xC8-Te-sWY" secondAttribute="leading" constant="16" id="XqC-Am-Zr9"/>
@@ -186,14 +195,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zy1-MN-4VN">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zy1-MN-4VN">
                                 <rect key="frame" x="113.5" y="115" width="148" height="30"/>
                                 <state key="normal" title="模拟服务器得到Token"/>
                                 <connections>
                                     <action selector="getToken:" destination="yh0-ie-Tvf" eventType="touchUpInside" id="weI-Uv-48S"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhG-BR-rEI">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhG-BR-rEI">
                                 <rect key="frame" x="65" y="147" width="245" height="30"/>
                                 <state key="normal" title="模拟服务器获取短信验证码和随机码"/>
                                 <connections>
@@ -201,13 +210,13 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入短信验证码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D4M-YB-ay8">
-                                <rect key="frame" x="32" y="186" width="230" height="30"/>
+                                <rect key="frame" x="32" y="190" width="230" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WH-xm-Hsy">
-                                <rect key="frame" x="278" y="186" width="81" height="30"/>
+                                <rect key="frame" x="278" y="190" width="81" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="81" id="A8T-wq-SGD"/>
                                 </constraints>
@@ -217,16 +226,23 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OpenId:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVn-h3-evG">
-                                <rect key="frame" x="32" y="234" width="61" height="21"/>
+                                <rect key="frame" x="32" y="238" width="61" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u82-46-Ggs">
-                                <rect key="frame" x="312" y="281" width="31" height="30"/>
+                                <rect key="frame" x="312" y="285" width="31" height="30"/>
                                 <state key="normal" title="完成"/>
                                 <connections>
                                     <action selector="dismiss:" destination="yh0-ie-Tvf" eventType="touchUpInside" id="d5u-qd-iwW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6XX-zt-llp">
+                                <rect key="frame" x="32" y="285" width="31" height="30"/>
+                                <state key="normal" title="取消"/>
+                                <connections>
+                                    <action selector="cancelHandle:" destination="yh0-ie-Tvf" eventType="touchUpInside" id="Dlf-Am-xKe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -235,8 +251,10 @@
                             <constraint firstItem="lFU-ic-rgL" firstAttribute="centerY" secondItem="Aa9-zg-Vn2" secondAttribute="centerY" id="0gx-5g-QM6"/>
                             <constraint firstItem="3WH-xm-Hsy" firstAttribute="trailing" secondItem="lFU-ic-rgL" secondAttribute="trailing" id="19f-v3-gXh"/>
                             <constraint firstItem="3WH-xm-Hsy" firstAttribute="leading" secondItem="D4M-YB-ay8" secondAttribute="trailing" constant="16" id="3sy-qN-WmZ"/>
+                            <constraint firstItem="6XX-zt-llp" firstAttribute="centerY" secondItem="DC0-tw-YsP" secondAttribute="centerY" id="3zk-TO-vxH"/>
                             <constraint firstItem="Aa9-zg-Vn2" firstAttribute="leading" secondItem="DC0-tw-YsP" secondAttribute="leadingMargin" constant="16" id="5d7-Fj-apO"/>
                             <constraint firstItem="zVn-h3-evG" firstAttribute="leading" secondItem="D4M-YB-ay8" secondAttribute="leading" id="FSO-nj-dvh"/>
+                            <constraint firstItem="6XX-zt-llp" firstAttribute="leading" secondItem="DC0-tw-YsP" secondAttribute="leading" constant="32" id="Hgs-ES-Iwc"/>
                             <constraint firstItem="Zy1-MN-4VN" firstAttribute="centerX" secondItem="DC0-tw-YsP" secondAttribute="centerX" id="N1O-Ly-r1a"/>
                             <constraint firstItem="ZhG-BR-rEI" firstAttribute="centerX" secondItem="DC0-tw-YsP" secondAttribute="centerX" id="Qbg-OQ-SMz"/>
                             <constraint firstItem="zVn-h3-evG" firstAttribute="top" secondItem="D4M-YB-ay8" secondAttribute="bottom" constant="18" id="RUc-B9-HlS"/>
@@ -251,6 +269,7 @@
                             <constraint firstItem="lFU-ic-rgL" firstAttribute="leading" secondItem="Aa9-zg-Vn2" secondAttribute="trailing" constant="8" id="eP8-Sz-pa6"/>
                             <constraint firstItem="Aa9-zg-Vn2" firstAttribute="top" secondItem="DC0-tw-YsP" secondAttribute="topMargin" constant="20" id="iWC-p4-fsB"/>
                             <constraint firstItem="IAC-z9-Vef" firstAttribute="leading" secondItem="DC0-tw-YsP" secondAttribute="leading" constant="32" id="jb7-kA-gcE"/>
+                            <constraint firstItem="u82-46-Ggs" firstAttribute="centerY" secondItem="DC0-tw-YsP" secondAttribute="centerY" id="weT-Hv-PNI"/>
                             <constraint firstAttribute="trailing" secondItem="lFU-ic-rgL" secondAttribute="trailing" constant="16" id="yTR-Qs-zgO"/>
                         </constraints>
                     </view>

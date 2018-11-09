@@ -101,7 +101,7 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:@(setting) forKey:kHETEnviroment];
     NSNumber *env = [defaults objectForKey:kHETEnviroment];
-    
+    [defaults synchronize];
     [self setOpenSDKEnviroment:[env integerValue]];
 }
 +(void)enviromentInit{

@@ -16,24 +16,6 @@
 		1BAECB31219127C400DD8846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB22219127C300DD8846 /* Assets.xcassets */; };
 		1BAECB32219127C400DD8846 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BAECB23219127C400DD8846 /* Info.plist */; };
 		1BAECB33219127C400DD8846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB24219127C400DD8846 /* main.m */; };
-		1BD26EE22193034400F1E715 /* HETOpenSleepCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */; };
-		1BD26EE32193034400F1E715 /* HETDeviceDetailSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */; };
-		1BD26EE42193034400F1E715 /* HETAirConditionBoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */; };
-		1BD26EE52193034400F1E715 /* HETBindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDF2193034400F1E715 /* HETBindSDK.framework */; };
-		1BD26EE62193034400F1E715 /* HETDeviceListSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */; };
-		1BD26EE82193034A00F1E715 /* HETAirConditionBoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */; };
-		1BD26EE92193034A00F1E715 /* HETAirConditionBoxSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1BD26EEA2193034A00F1E715 /* HETBindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDF2193034400F1E715 /* HETBindSDK.framework */; };
-		1BD26EEB2193034A00F1E715 /* HETBindSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDF2193034400F1E715 /* HETBindSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1BD26EEC2193034A00F1E715 /* HETDeviceDetailSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */; };
-		1BD26EED2193034A00F1E715 /* HETDeviceDetailSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1BD26EEE2193034A00F1E715 /* HETDeviceListSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */; };
-		1BD26EEF2193034A00F1E715 /* HETDeviceListSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1BD26EF02193034A00F1E715 /* HETOpenSleepCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */; };
-		1BD26EF12193034A00F1E715 /* HETOpenSleepCoreSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1BD26EF5219304DB00F1E715 /* HETSleepReportSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */; };
-		1BD26EF6219304E500F1E715 /* HETSleepReportSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */; };
-		1BD26EF7219304E500F1E715 /* HETSleepReportSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1BD26EFD21941D1100F1E715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD26EF921941D1100F1E715 /* LaunchScreen.storyboard */; };
 		1BD26EFE21941D1100F1E715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD26EFB21941D1100F1E715 /* Main.storyboard */; };
 		F550C148C015D82121190AEA /* libPods-HETKunYuanDemo1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB19D88AD27F220819BD32AF /* libPods-HETKunYuanDemo1.a */; };
@@ -46,12 +28,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1BD26EEB2193034A00F1E715 /* HETBindSDK.framework in Embed Frameworks */,
-				1BD26EF7219304E500F1E715 /* HETSleepReportSDK.framework in Embed Frameworks */,
-				1BD26EF12193034A00F1E715 /* HETOpenSleepCoreSDK.framework in Embed Frameworks */,
-				1BD26EEF2193034A00F1E715 /* HETDeviceListSDK.framework in Embed Frameworks */,
-				1BD26EED2193034A00F1E715 /* HETDeviceDetailSDK.framework in Embed Frameworks */,
-				1BD26EE92193034A00F1E715 /* HETAirConditionBoxSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,12 +54,6 @@
 		1BAECB23219127C400DD8846 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BAECB24219127C400DD8846 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BAECB36219127DC00DD8846 /* HETKunYuanDemo1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HETKunYuanDemo1.entitlements; sourceTree = "<group>"; };
-		1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETOpenSleepCoreSDK.framework; sourceTree = "<group>"; };
-		1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETDeviceDetailSDK.framework; sourceTree = "<group>"; };
-		1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETAirConditionBoxSDK.framework; sourceTree = "<group>"; };
-		1BD26EDF2193034400F1E715 /* HETBindSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETBindSDK.framework; sourceTree = "<group>"; };
-		1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETDeviceListSDK.framework; sourceTree = "<group>"; };
-		1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HETSleepReportSDK.framework; sourceTree = "<group>"; };
 		1BD26EFA21941D1100F1E715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BD26EFC21941D1100F1E715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		34418124DDDEB3B5CE8D41E5 /* Pods-HETKunYuanDemo1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HETKunYuanDemo1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,19 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD26EE22193034400F1E715 /* HETOpenSleepCoreSDK.framework in Frameworks */,
-				1BD26EE52193034400F1E715 /* HETBindSDK.framework in Frameworks */,
-				1BD26EF6219304E500F1E715 /* HETSleepReportSDK.framework in Frameworks */,
-				1BD26EEC2193034A00F1E715 /* HETDeviceDetailSDK.framework in Frameworks */,
-				1BD26EE82193034A00F1E715 /* HETAirConditionBoxSDK.framework in Frameworks */,
-				1BD26EE32193034400F1E715 /* HETDeviceDetailSDK.framework in Frameworks */,
-				1BD26EEA2193034A00F1E715 /* HETBindSDK.framework in Frameworks */,
-				1BD26EE42193034400F1E715 /* HETAirConditionBoxSDK.framework in Frameworks */,
-				1BD26EF5219304DB00F1E715 /* HETSleepReportSDK.framework in Frameworks */,
 				F550C148C015D82121190AEA /* libPods-HETKunYuanDemo1.a in Frameworks */,
-				1BD26EF02193034A00F1E715 /* HETOpenSleepCoreSDK.framework in Frameworks */,
-				1BD26EEE2193034A00F1E715 /* HETDeviceListSDK.framework in Frameworks */,
-				1BD26EE62193034400F1E715 /* HETDeviceListSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,12 +76,6 @@
 		1BAECAE82191268A00DD8846 = {
 			isa = PBXGroup;
 			children = (
-				1BD26EF4219304DB00F1E715 /* HETSleepReportSDK.framework */,
-				1BD26EDE2193034400F1E715 /* HETAirConditionBoxSDK.framework */,
-				1BD26EDF2193034400F1E715 /* HETBindSDK.framework */,
-				1BD26EDD2193034400F1E715 /* HETDeviceDetailSDK.framework */,
-				1BD26EE02193034400F1E715 /* HETDeviceListSDK.framework */,
-				1BD26EDC2193034400F1E715 /* HETOpenSleepCoreSDK.framework */,
 				1BAECAF32191268A00DD8846 /* HETKunYuanDemo1 */,
 				1BAECAF22191268A00DD8846 /* Products */,
 				216AF1457A2039594089CA18 /* Pods */,
@@ -291,7 +243,7 @@
 						CreatedOnToolsVersion = 10.0;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -340,6 +292,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HETKunYuanDemo1/Pods-HETKunYuanDemo1-resources.sh",
 				"${PODS_ROOT}/HETOpenSDK/SDK/HETOpenSDK.bundle",
+				"${PODS_ROOT}/HETSleepFramework/HETSleepFramework/SDK/HETAirConditionBoxSDK.bundle",
+				"${PODS_ROOT}/HETSleepFramework/HETSleepFramework/SDK/HETBindSDK.bundle",
+				"${PODS_ROOT}/HETSleepFramework/HETSleepFramework/SDK/HETDeviceDetailSDK.bundle",
+				"${PODS_ROOT}/HETSleepFramework/HETSleepFramework/SDK/HETDeviceListSDK.bundle",
+				"${PODS_ROOT}/HETSleepFramework/HETSleepFramework/SDK/HETOpenSleepCoreSDK.bundle",
+				"${PODS_ROOT}/HETSleepFramework/HETSleepFramework/SDK/HETSleepReportSDK.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SAMCategories/SAMCategories/SAMCategories.bundle",
 			);
@@ -555,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HETKunYuanDemo1/HETKunYuanDemo1.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WU2WFZ2B66;
 				ENABLE_BITCODE = NO;
@@ -570,9 +529,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Het.HETKunYuanDemo1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.het.KunYuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = developAll;
+				PROVISIONING_PROFILE_SPECIFIER = KunYuan_Dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -583,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HETKunYuanDemo1/HETKunYuanDemo1.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
@@ -598,7 +558,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Het.HETKunYuanDemo1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.het.KunYuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

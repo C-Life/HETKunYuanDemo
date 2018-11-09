@@ -9,20 +9,20 @@
 #import "AuthVC.h"
 #import "OpenIdInfo+CoreDataProperties.h"
 @interface AuthVC ()
-//user interface
-@property (weak, nonatomic) IBOutlet UITextField *phoneNumberTextFeild;
-@property (weak, nonatomic) IBOutlet UILabel *authorCodeLabel;
-@property (weak, nonatomic) IBOutlet UITextField *textCodeTextFeild;
-@property (weak, nonatomic) IBOutlet UILabel *openIdLabel;
-
-//data
-@property (nonatomic,copy) NSString *phoneNumber;
-@property (nonatomic,copy) NSString *token;
-@property (nonatomic,copy) NSString *authorizationCode;
-@property (nonatomic,copy) NSString *randomCode;
-@property (nonatomic,copy)NSString *errorMsg;
-@property (nonatomic,copy)NSString *loadingMsg;
-@end
+    //user interface
+    @property (weak, nonatomic) IBOutlet UITextField *phoneNumberTextFeild;
+    @property (weak, nonatomic) IBOutlet UILabel *authorCodeLabel;
+    @property (weak, nonatomic) IBOutlet UITextField *textCodeTextFeild;
+    @property (weak, nonatomic) IBOutlet UILabel *openIdLabel;
+    
+    //data
+    @property (nonatomic,copy) NSString *phoneNumber;
+    @property (nonatomic,copy) NSString *token;
+    @property (nonatomic,copy) NSString *authorizationCode;
+    @property (nonatomic,copy) NSString *randomCode;
+    @property (nonatomic,copy)NSString *errorMsg;
+    @property (nonatomic,copy)NSString *loadingMsg;
+    @end
 
 @implementation AuthVC
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
@@ -35,12 +35,12 @@
     [self initData];
 }
 -(void)initData{
-    [[RACObserve(self, errorMsg) distinctUntilChanged] subscribeNext:^(id x) {
+    [RACObserve(self, errorMsg)  subscribeNext:^(id x) {
         if (x == nil) {
             return ;
         }
         dispatch_async(dispatch_get_main_queue(), ^{
-                [HETCommonHelp showAutoDissmissWithMessage:x];
+            [HETCommonHelp showAutoDissmissWithMessage:x];
         });
     }];
     
@@ -60,22 +60,22 @@
     }
     self.phoneNumber = self.phoneNumberTextFeild.text;
     self.loadingMsg =  @"正在请求...";
-
+    
     [[HETThirdCloudAuthorize shareInstance] getAuthorizationCodeWithAccount:self.phoneNumber
-                            withOpenId:@""
-                    success:^(id responseObject) {
-                self.loadingMsg = nil;
-                NSString * authorizationCode = [responseObject valueForKeyPath:@"data.authorizationCode"];
-                NSLog(@"%@",authorizationCode);
-                self.authorizationCode = authorizationCode;
-                self.authorCodeLabel.text = [NSString stringWithFormat:@"授权码:%@",self.authorizationCode];
+                                                                 withOpenId:@""
+                                                                    success:^(id responseObject) {
+                                                                        self.loadingMsg = nil;
+                                                                        NSString * authorizationCode = [responseObject valueForKeyPath:@"data.authorizationCode"];
+                                                                        NSLog(@"%@",authorizationCode);
+                                                                        self.authorizationCode = authorizationCode;
+                                                                        self.authorCodeLabel.text = [NSString stringWithFormat:@"授权码:%@",self.authorizationCode];
                                                                     }
-                failure:^(NSError *error) {
-                self.loadingMsg = nil;
-                self.errorMsg = [error.userInfo valueForKey:@"NSLocalizedDescription"];
+                                                                    failure:^(NSError *error) {
+                                                                        self.loadingMsg = nil;
+                                                                        self.errorMsg = [error.userInfo valueForKey:@"NSLocalizedDescription"];
                                                                         
-                                                    }];
-
+                                                                    }];
+    
     
 }
 - (IBAction)getToken:(id)sender {
@@ -99,7 +99,7 @@
     NSURLSessionTask *task = [session dataTaskWithRequest:request
                                         completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
                               {
-                                
+                                  
                                   self.loadingMsg = nil;
                                   if (data == nil) {
                                       return ;
@@ -199,7 +199,7 @@
         }
     }];
 }
-
+    
 -(void)saveOpenId:(NSString *)openId{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSNumber *env = [defaults objectForKey:kHETEnviroment];
@@ -232,14 +232,29 @@
     
     NSArray *arr = [AppDelegate.context executeFetchRequest:request error:nil];
     if (arr.count == 0 || ((OpenIdInfo *)[arr firstObject]).openId.length < 32){
-        self.errorMsg = @"需要授权成功才能刚退出";
+        self.errorMsg = @"您还未授权成功";
         return;
     }
-        
-    !self.dismiss?:self.dismiss();
+    !self.dismiss?:self.dismiss(((OpenIdInfo *)[arr firstObject]).openId);
 }
+- (IBAction)cancelHandle:(id)sender {
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSNumber *env = [defaults objectForKey:kHETEnviroment];
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"OpenIdInfo"];
+    
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"enviroment == %d",env.integerValue];
+    request.predicate = predicate;
+    
+    NSArray *arr = [AppDelegate.context executeFetchRequest:request error:nil];
+    if (arr.count == 0 || ((OpenIdInfo *)[arr firstObject]).openId.length < 32){
+        self.errorMsg = @"您未授权成功,需要授权成功才能使用Het服务";
+    }
+    !self.dismiss?:self.dismiss(nil);
+}
+    
 -(void)setErrorMsg:(NSString *)errorMsg{
     self.loadingMsg = nil;
     _errorMsg = errorMsg;
 }
-@end
+    @end
