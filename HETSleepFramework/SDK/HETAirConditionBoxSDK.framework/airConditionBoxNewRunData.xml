@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protocol>
+    <id>2104-3</id>
+    <definitions>
+        <byteDef length="2" javaType="LONG" ignore="false" property="temperature" propertyName="温度" propertyValueType="RANGE" propertyValueDesc="0~65536" unit="℃" gap="1" isTemplateField="0" remark="此温度值是乘以100倍的数值:例如:257为25.7℃" />
+        <byteDef length="1" javaType="LONG" ignore="false" property="humidity" propertyName="湿度" isTemplateField="0" />
+        <byteDef length="1" javaType="LONG" ignore="false" property="boxSwitch" propertyName="开关状态" isTemplateField="0" />
+        <byteDef length="1" javaType="LONG" ignore="false" property="connectDeviceCount" propertyName="设备个数" isTemplateField="0" />
+        <byteDef length="1" javaType="LONG" ignore="false" property="beltMcuSoftwareVersion" propertyName="带子MCU软件版本信息" propertyValueType="RANGE" propertyValueDesc="0~255" gap="1" mulriple="1" isTemplateField="0" />
+        <byteDef length="1" javaType="LONG" ignore="false" property="beltConnetionStatus" propertyName="带子蓝牙连接状态" propertyValueType="ENUM" propertyValueDesc="0-带子断线|1-带子连接上" isTemplateField="0" />
+        <byteDef length="6" javaType="HEXSTRING" ignore="false" property="beltBlueToothMac" propertyName="带子蓝牙MAC地址" gap="1" isTemplateField="0" />
+        <byteDef length="1" javaType="LONG" ignore="false" property="temperatureCompensation" propertyName="温度补偿值" propertyValueType="RANGE" propertyValueDesc="0~255" unit="℃" gap="1" isTemplateField="0" remark="补偿值范围(±10) 有符号数 例:98,为补偿值9.8" />
+        <byteDef length="1" javaType="LONG" ignore="false" property="humidityCompensation" propertyName="湿度补偿值" propertyValueType="RANGE" propertyValueDesc="0~255" gap="1" isTemplateField="0" remark="补偿值范围(±10) 有符号数 例:-98,为补偿值-9.8" />
+        <byteDef length="1" javaType="LONG" ignore="true" property="operateReservedDate1" propertyName="预留字节1" propertyValueType="RANGE" propertyValueDesc="0~255" gap="1" mulriple="1" isTemplateField="0" />
+    </definitions>
+</protocol>

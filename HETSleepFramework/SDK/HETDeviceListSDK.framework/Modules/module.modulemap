@@ -1,0 +1,6 @@
+framework module HETDeviceListSDK {
+  umbrella header "HETDeviceListSDK.h"
+
+  export *
+  module * { export * }
+}

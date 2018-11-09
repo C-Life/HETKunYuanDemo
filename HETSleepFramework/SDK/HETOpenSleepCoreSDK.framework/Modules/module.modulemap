@@ -1,0 +1,6 @@
+framework module HETOpenSleepCoreSDK {
+  umbrella header "HETOpenSleepCoreSDK.h"
+
+  export *
+  module * { export * }
+}
