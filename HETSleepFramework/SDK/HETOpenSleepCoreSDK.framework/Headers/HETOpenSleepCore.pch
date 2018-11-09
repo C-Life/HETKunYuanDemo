@@ -24,6 +24,7 @@
 
 #import <HETOpenSDK/HETOpenSDK.h>
 #import "HETOpenSleepSDKHelper.h"
+#import "HETOpenSleepCoreResourceControl.h"
 #import "AnimatedGIFImageSerialization.h"
 #import "NSDate+SSToolkitAdditions.h"
 #import "MBProgressHUD.h"

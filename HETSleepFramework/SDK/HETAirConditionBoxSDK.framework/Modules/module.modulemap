@@ -1,0 +1,6 @@
+framework module HETAirConditionBoxSDK {
+  umbrella header "HETAirConditionBoxSDK.h"
+
+  export *
+  module * { export * }
+}

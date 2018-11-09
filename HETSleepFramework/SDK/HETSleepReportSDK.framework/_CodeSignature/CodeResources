@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Lz+5a2UXlSbVQoLlJZyfG5XnPq4=
+		ocOTe5hAhzBnWv2SKXZrA48Vk0s=
 		</data>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>HETSleepDetailCell.nib</key>
 		<data>
-		Wp0w3MM7gLDimwmCbGAMn9PD2W8=
+		6kXJipj3/+i/ZUMRoUaf6vdqT08=
 		</data>
 		<key>HETSleepReasonCell.nib</key>
 		<data>
-		D4y8e1LmOLk0CEo7tDV3oqpOJL8=
+		qs5ZV/VyEN3pyI9eIkbMxpw1pLQ=
 		</data>
 		<key>Headers/HETSleepReportSDK.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RmEp4ie3CcR5EF2lh7osfLA6znU=
+		nVV98SD8p9JjEbF5nPBS8Wi4Cp8=
 		</data>
 		<key>MJRefresh.bundle/arrow@2x.png</key>
 		<data>
@@ -247,11 +247,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Lz+5a2UXlSbVQoLlJZyfG5XnPq4=
+			ocOTe5hAhzBnWv2SKXZrA48Vk0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			AZ/7x/G7qy5tpuVPMgI31anj1X0mIiuBsNS/f4kwNiw=
+			pwm4HVIHCsbHpdNOwV4x1JzqqUdqKXil5qAtFmYr3Kg=
 			</data>
 		</dict>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
@@ -302,22 +302,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wp0w3MM7gLDimwmCbGAMn9PD2W8=
+			6kXJipj3/+i/ZUMRoUaf6vdqT08=
 			</data>
 			<key>hash2</key>
 			<data>
-			jTwYAO122nAc86Ie2cCk9izruojUhci0gf+5MEf3ag4=
+			Whg+yR3m6ZlSFGxuBBmXMFAouzPeQULwdU0y03AnEJA=
 			</data>
 		</dict>
 		<key>HETSleepReasonCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D4y8e1LmOLk0CEo7tDV3oqpOJL8=
+			qs5ZV/VyEN3pyI9eIkbMxpw1pLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			+wiGRnHnLcOHrgr+9ea+jr5EAPlcj1ar3ELLu1tHVf8=
+			FsrySJhplBSruCgSWP+HqUXEwlm8YduuwEYH6AbesYo=
 			</data>
 		</dict>
 		<key>Headers/HETSleepReportSDK.h</key>

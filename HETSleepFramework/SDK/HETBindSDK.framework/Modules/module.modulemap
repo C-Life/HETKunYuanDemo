@@ -1,0 +1,6 @@
+framework module HETBindSDK {
+  umbrella header "HETBindSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -98,7 +98,6 @@
     
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"enviroment == %d",env];
     request.predicate = predicate;
-    return;
     NSArray *arr = [AppDelegate.context executeFetchRequest:request error:nil];
     if (arr.count == 0 || ((OpenIdInfo *)[arr firstObject]).openId.length < 32) {
         UIViewController *vc = self.childViewControllers.firstObject;

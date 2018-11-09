@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Bu4XkgLTAsxqEXX1V7gojvUogfk=
+		zoOcQf0KHWNo8LJnvxk1mq9IjRo=
 		</data>
 		<key>DeviceTipView.nib</key>
 		<data>
-		QMqO1TsPH1lWWHxzQF3P3bk3huk=
+		T+rmHDbhIsdkKYZoY+DAEBUkbFc=
 		</data>
 		<key>HETFullScreenErrorView.nib</key>
 		<data>
-		HzojrUZ4NdWgG7E9Q0mQvBzOqao=
+		smniAR8bVcWquy46S57Suap3lmI=
 		</data>
 		<key>HETFullScreenErrorView.strings</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/HETOpenSleepCore.pch</key>
 		<data>
-		rB9spYNB1gyIR5Jy6CFXfnsegSc=
+		HboTdToe6t+SO2geiAdu0OR4i9k=
 		</data>
 		<key>Headers/HETOpenSleepCoreSDK.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/HETOpenSleepSDKHelper.h</key>
 		<data>
-		0iaLzGE4mdamqF1zN3yzWOKpSWY=
+		ha9RDCyNxVp49p91a/tfup0G1As=
 		</data>
 		<key>Headers/HETPublicCells.h</key>
 		<data>
@@ -332,14 +332,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>handleSource.sh</key>
-		<data>
-		iTRvRqUksrJeEb3FIaMPBjOFD0Y=
-		</data>
-		<key>makeframework.sh</key>
-		<data>
-		QordT3ZCI8gYvqhpwajk3vAXDJs=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -347,33 +339,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Bu4XkgLTAsxqEXX1V7gojvUogfk=
+			zoOcQf0KHWNo8LJnvxk1mq9IjRo=
 			</data>
 			<key>hash2</key>
 			<data>
-			UK1TA52Wx0bFZnV6IsUhn5CNMj9H+af8GvnNqN62G3U=
+			J3t95lNj8+uW95BQqxlrOWr54nS+tKHtUszbmDb0MeY=
 			</data>
 		</dict>
 		<key>DeviceTipView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QMqO1TsPH1lWWHxzQF3P3bk3huk=
+			T+rmHDbhIsdkKYZoY+DAEBUkbFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZIvDRC8A8C4VlFUnegYalYTzGgb67mAaBYuUoG8BnC4=
+			bZwj+ZATowFWUGOZdNVdI92ipbhFX+NYazGZa3lFwhY=
 			</data>
 		</dict>
 		<key>HETFullScreenErrorView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HzojrUZ4NdWgG7E9Q0mQvBzOqao=
+			smniAR8bVcWquy46S57Suap3lmI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ig3SiagkGdaMxL9rCvlVv3FaLtXriTxXXccyHUUGWLM=
+			+aZdVPnCL2gSc2tdMe2TwwtcMy49qKwUc2KlIVM3oRk=
 			</data>
 		</dict>
 		<key>HETFullScreenErrorView.strings</key>
@@ -534,11 +526,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rB9spYNB1gyIR5Jy6CFXfnsegSc=
+			HboTdToe6t+SO2geiAdu0OR4i9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZnYzk3/jUxHB8FJWUGGtuinZ98wOVA5kR04jJusQ7LA=
+			2mEHcVgIF1oPEOBKsdtbjce3eYP5hGwvU1WAQ73WXmg=
 			</data>
 		</dict>
 		<key>Headers/HETOpenSleepCoreSDK.h</key>
@@ -556,11 +548,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0iaLzGE4mdamqF1zN3yzWOKpSWY=
+			ha9RDCyNxVp49p91a/tfup0G1As=
 			</data>
 			<key>hash2</key>
 			<data>
-			RqYo3lOM6x/PlnMOLM9Uvnik7t5PYdy6OaiMPJazyzA=
+			bRVAzR+rT/dB1UZHoIWZQEctg6Og5XwznLSLfLqEMVE=
 			</data>
 		</dict>
 		<key>Headers/HETPublicCells.h</key>
@@ -998,28 +990,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>handleSource.sh</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iTRvRqUksrJeEb3FIaMPBjOFD0Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			4D3l4DIoNFEazuCbmpH9FWLoO2xlJ3txe3tAJT+js4M=
-			</data>
-		</dict>
-		<key>makeframework.sh</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QordT3ZCI8gYvqhpwajk3vAXDJs=
-			</data>
-			<key>hash2</key>
-			<data>
-			KpgEcLpgOozFtm1QJKElrIWnneRx3ocExG3YcJNOySM=
-			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
