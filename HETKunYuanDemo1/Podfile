@@ -21,12 +21,12 @@ target 'HETKunYuanDemo1' do
     pod 'HETOpenSDK/HETMattressDeviceSDK',            '2.1.0'
     pod 'HETPublicSDK_WiFiModule/HF_LPT100_V3','1.0.0'
     
-    pod 'HETSleepFramework/HETOpenSleepCoreSDK',        '0.0.1'
-    pod 'HETSleepFramework/HETBindSDK',                 '0.0.1'
-    pod 'HETSleepFramework/HETDeviceDetailSDK',         '0.0.1'
-    pod 'HETSleepFramework/HETDeviceListSDK',           '0.0.1'
-    pod 'HETSleepFramework/HETSleepReportSDK',           '0.0.1'
-    pod 'HETSleepFramework/HETAirConditionBoxSDK',           '0.0.1'
+    pod 'HETSleepFramework/HETOpenSleepCoreSDK',        '0.0.2'
+    pod 'HETSleepFramework/HETBindSDK',                 '0.0.2'
+    pod 'HETSleepFramework/HETDeviceDetailSDK',         '0.0.2'
+    pod 'HETSleepFramework/HETDeviceListSDK',           '0.0.2'
+    pod 'HETSleepFramework/HETSleepReportSDK',           '0.0.2'
+    pod 'HETSleepFramework/HETAirConditionBoxSDK',           '0.0.2'
 
 end
 
