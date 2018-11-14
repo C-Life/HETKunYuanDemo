@@ -12,7 +12,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TargetHETDeviceList : NSObject
+/**
+ *  根据设备类型得到设备列表vc
+ */
 +(nonnull UIViewController *)getDeviceListWithType:(HETDeviceType)type;
+
+/**
+ * 传入deviceInfo, push到相应的设备界面
+ */
 +(void)pushNav:(UINavigationController *)nav
     deviceInfo:(NSDictionary *)deviceInfo;
 @end

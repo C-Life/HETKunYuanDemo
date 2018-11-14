@@ -6,23 +6,47 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		gt1DAjvjwwdR/AvbG06NmF/Ip2o=
+		3yrfGJCpE7bdXBhIUAcpZfhttlQ=
+		</data>
+		<key>Core_Loading_1@3x.png</key>
+		<data>
+		+QQXI/1UhPoVHIggPLMs1K05ETI=
+		</data>
+		<key>Core_Loading_2@3x.png</key>
+		<data>
+		K9lUei47S+T1+5rdxrGyKsCFgE4=
+		</data>
+		<key>Core_Loading_3@3x.png</key>
+		<data>
+		ULNfM263TBWLfsTgaMr1ERJ62m4=
+		</data>
+		<key>Core_Loading_4@3x.png</key>
+		<data>
+		1DQaZ/fnjJAejL0qTRrfgszreq8=
+		</data>
+		<key>Core_Loading_5@3x.png</key>
+		<data>
+		CjMK4L9uJmIUedSLGUbXlWPWwQM=
+		</data>
+		<key>Core_Loading_6@3x.png</key>
+		<data>
+		4diQmUp+oHRw8M5C+uFX1eI9du4=
 		</data>
 		<key>DetailCell2.nib</key>
 		<data>
-		YbvBieYMrIRjY2vaIxwwrBlzwTQ=
+		3FoMlsfKXfggyiNBw6FlsrfOKb4=
 		</data>
 		<key>DetailNameCell.nib</key>
 		<data>
-		BQqy8kh6lmDRiUMW3JBkJ2P1R90=
+		bFZPdTCtxu1K1m6FcttRp2cItC8=
 		</data>
 		<key>DetailUnbindCell.nib</key>
 		<data>
-		B07zUIa+7OxFL/bfgPzsHZk1cKI=
+		DvG3mGDXEsku3EBVG/UHrFg2GMc=
 		</data>
 		<key>HETDeviceNickRoomController.nib</key>
 		<data>
-		C7PORJMhjlsYamOAZCQBe78u9oI=
+		E7scR49lR68K/d5ae2ym7z08mGo=
 		</data>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
 		<data>
@@ -240,10 +264,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>makeframework.sh</key>
-		<data>
-		QordT3ZCI8gYvqhpwajk3vAXDJs=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -251,55 +271,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gt1DAjvjwwdR/AvbG06NmF/Ip2o=
+			3yrfGJCpE7bdXBhIUAcpZfhttlQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			jJSAZhbzZCl1W+VSS23bRJ2a0pLoN1gkgUB+bf6rBHs=
+			ptvWM0x6Vnte0JIE+vKfrHkgz5w455Gv7/pVjt30DIo=
+			</data>
+		</dict>
+		<key>Core_Loading_1@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+QQXI/1UhPoVHIggPLMs1K05ETI=
+			</data>
+			<key>hash2</key>
+			<data>
+			EoQcx34dm5jIZDo0eb+Fau3Ovydptg+sh+K/S32K9Lc=
+			</data>
+		</dict>
+		<key>Core_Loading_2@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K9lUei47S+T1+5rdxrGyKsCFgE4=
+			</data>
+			<key>hash2</key>
+			<data>
+			0gifL6iNKieSPZNOP2YgZXSe4F8NFupkE+sUys2KkxU=
+			</data>
+		</dict>
+		<key>Core_Loading_3@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ULNfM263TBWLfsTgaMr1ERJ62m4=
+			</data>
+			<key>hash2</key>
+			<data>
+			XRZvLJg0MxVBbov5L0fp3KrxiyEdIVS6vkS6YZ2g7HU=
+			</data>
+		</dict>
+		<key>Core_Loading_4@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1DQaZ/fnjJAejL0qTRrfgszreq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			cdv98Go0PMktUM44Gh2b4iXvnaJ/1B4T2tQsryWGwTU=
+			</data>
+		</dict>
+		<key>Core_Loading_5@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CjMK4L9uJmIUedSLGUbXlWPWwQM=
+			</data>
+			<key>hash2</key>
+			<data>
+			lt0gfuJXKIGzznqF3iuBvoCGx2zN2fBMETmUuBez/mo=
+			</data>
+		</dict>
+		<key>Core_Loading_6@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4diQmUp+oHRw8M5C+uFX1eI9du4=
+			</data>
+			<key>hash2</key>
+			<data>
+			TyPk9bY3KGunNmExB/cuOG8DmFYfDuDW9M6YzmEGWac=
 			</data>
 		</dict>
 		<key>DetailCell2.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YbvBieYMrIRjY2vaIxwwrBlzwTQ=
+			3FoMlsfKXfggyiNBw6FlsrfOKb4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PmRX2cqxvsKc+ljr2IOlqJGZWZ6wkPl63UW2+0nqt34=
+			NM7/flr03jkk8oljf2csrmhRCh8q9EbtyJGpObF+iXI=
 			</data>
 		</dict>
 		<key>DetailNameCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BQqy8kh6lmDRiUMW3JBkJ2P1R90=
+			bFZPdTCtxu1K1m6FcttRp2cItC8=
 			</data>
 			<key>hash2</key>
 			<data>
-			kYuAkX6M1YD7EmInYJzlk8F2NIKEa86eGzmEJKS115I=
+			5wL2iYUm7txH7INsQ9xM0PH8ul/AIx9tSAVbT1WMFos=
 			</data>
 		</dict>
 		<key>DetailUnbindCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B07zUIa+7OxFL/bfgPzsHZk1cKI=
+			DvG3mGDXEsku3EBVG/UHrFg2GMc=
 			</data>
 			<key>hash2</key>
 			<data>
-			30dwqVuH5QTznKlw4tOGhI+Acw9pWfsPfJ0URw54+X0=
+			bNQDuOvTWlvpUP+7fTLBeXq1f2zxg9kfbDhC9IzF6uA=
 			</data>
 		</dict>
 		<key>HETDeviceNickRoomController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C7PORJMhjlsYamOAZCQBe78u9oI=
+			E7scR49lR68K/d5ae2ym7z08mGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			esWK6c1vn/i+yS6HO6KloyBff/UGvAryVe4O/yx/YIc=
+			VyUcr0f7v30RoLHud5hsWU5zYFqrcLj2pRs3p82AMG8=
 			</data>
 		</dict>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
@@ -649,17 +735,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>makeframework.sh</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QordT3ZCI8gYvqhpwajk3vAXDJs=
-			</data>
-			<key>hash2</key>
-			<data>
-			KpgEcLpgOozFtm1QJKElrIWnneRx3ocExG3YcJNOySM=
-			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
