@@ -19,6 +19,17 @@ NS_ASSUME_NONNULL_BEGIN
  *         睡眠检测器: productId = 4303
  */
 +(UIViewController *)getBindVCWithProductId:(NSInteger)productId;
+
+
+/**
+   类属性，返回绑定结果,
+ 
+   @param err : 绑定失败结果
+   @param devInfo : 绑定成功，返回设备deviceInfo
+ */
+@property(nonatomic,copy,class) void (^bindResultBlock)(NSError * _Nullable err, NSDictionary * _Nullable devInfo);
+
+
 @end
 
 NS_ASSUME_NONNULL_END

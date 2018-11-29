@@ -22,6 +22,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TargetHETDeviceDetailSDK : NSObject
 
 +(UIViewController <HETDeviceDetailDelegate> *)getDetailVCWithDeviceInfo:(NSDictionary *)devInfo;
+
+/**
+ 解绑成功或停止使用block,如果您未赋值，直接pop回rootvc
+ */
+@property(nonatomic,copy,class) void (^unbindBlock)(void);
 @end
 
 NS_ASSUME_NONNULL_END

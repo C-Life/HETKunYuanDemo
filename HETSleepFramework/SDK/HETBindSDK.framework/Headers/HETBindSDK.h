@@ -18,3 +18,5 @@ FOUNDATION_EXPORT const unsigned char HETBindSDKVersionString[];
 
 
 #import "HETBindSDKTarget.h"
+
+#import "HETBindSDKMacro.h"

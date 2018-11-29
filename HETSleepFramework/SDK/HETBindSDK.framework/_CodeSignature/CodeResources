@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kBO7fDG608gB0th1RyiH5L+XswQ=
+		8tlb+/XaCkJWlmC06t5ij/zVays=
 		</data>
 		<key>HETBindSDKBindTip.html</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>HETBleBindTipVC.nib</key>
 		<data>
-		+9Tb9ov98aZwbFCj8unCbrkwVSg=
+		mz16lm9+692VLctHBc7hpDvz7l4=
 		</data>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/HETBindSDK.h</key>
 		<data>
-		aHu6G91pTL3at4D719N26fFO2KI=
+		6yF8/kxwz05BAPNdAFBB2eBVaGw=
 		</data>
 		<key>Headers/HETBindSDKTarget.h</key>
 		<data>
-		mIViqK7Uu2FZstR9spW9IFY26WM=
+		WPfkxD2zIJW3zuMsN+EFHrzrwRQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -243,11 +243,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kBO7fDG608gB0th1RyiH5L+XswQ=
+			8tlb+/XaCkJWlmC06t5ij/zVays=
 			</data>
 			<key>hash2</key>
 			<data>
-			4nWPbGBQeCniUTRSpANubKXUub1mgRvSyeJ1AmDpfGI=
+			81dGGDEz1IznMjyrUkxwbJClC7cWdVBvfLxY9odGVfw=
 			</data>
 		</dict>
 		<key>HETBindSDKBindTip.html</key>
@@ -265,11 +265,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+9Tb9ov98aZwbFCj8unCbrkwVSg=
+			mz16lm9+692VLctHBc7hpDvz7l4=
 			</data>
 			<key>hash2</key>
 			<data>
-			1xsy0SdmbzQl71SAQmOTBR8rgXBf9nlUXbBdlFi1eMw=
+			SyGavo1dGY3wxa0z3GEb/r7qlKMMW95kNEOhJ/xYZ/c=
 			</data>
 		</dict>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
@@ -320,22 +320,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aHu6G91pTL3at4D719N26fFO2KI=
+			6yF8/kxwz05BAPNdAFBB2eBVaGw=
 			</data>
 			<key>hash2</key>
 			<data>
-			YhSZDDptibjLoyzvTF9knqAi0q9alaee+WSqTCiwtJs=
+			cBIJ5rHhXLHXNj9tgzcsaDIm8Xmt4M2dx25n3QFnhjI=
 			</data>
 		</dict>
 		<key>Headers/HETBindSDKTarget.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mIViqK7Uu2FZstR9spW9IFY26WM=
+			WPfkxD2zIJW3zuMsN+EFHrzrwRQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			yQ0wVV9vTOod2SMhl4gaCUu77i2mbVA89g7TkK2HBGs=
+			94V62IIybyMMX19aQbvIoWtSXJyDn2Ew4ysL/+vbLyE=
 			</data>
 		</dict>
 		<key>MJRefresh.bundle/arrow@2x.png</key>
