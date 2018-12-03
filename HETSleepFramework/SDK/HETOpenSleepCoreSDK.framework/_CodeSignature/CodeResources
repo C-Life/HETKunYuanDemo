@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		uxPYIgLnEBjOTOKfr5MpY3RUYZM=
+		Fy2Ti7hikMw/gz+EfMgV8BS3i5g=
 		</data>
 		<key>DeviceTipView.nib</key>
 		<data>
-		GkSF7EHCG4YTrMmdu2uVV9ATxgM=
+		GxmCz5Ka+k3VvJc8tVj9NOB8hmk=
 		</data>
 		<key>HETFullScreenErrorView.nib</key>
 		<data>
-		DYXgPZB4/Umzk3sS6v/vRwxT6ek=
+		lWL6OwRY6Gp421CUypXbo4LftwI=
 		</data>
 		<key>HETFullScreenErrorView.strings</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Headers/HETOpenSleepCoreSDK.h</key>
 		<data>
-		LH+EONKz2tDYXVdURCPU2IdpfK4=
+		bv2CinJXnzBnj7KV8u8bKJwXgq8=
 		</data>
 		<key>Headers/HETOpenSleepSDKHelper.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/HETSleepUIConfig.h</key>
 		<data>
-		+W+mhsVvLFLOC7y0HKb2qUql+JE=
+		dPNs0v6DdDf3BlMja2pbzevB7Lw=
 		</data>
 		<key>Headers/HETUIConfig.h</key>
 		<data>
@@ -339,33 +339,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uxPYIgLnEBjOTOKfr5MpY3RUYZM=
+			Fy2Ti7hikMw/gz+EfMgV8BS3i5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			xOFUpup+Jaml8XOPnXA8l3yHJ1EFW41psERyDIWSXL0=
+			hJj1SYkUiLaTNG++iPlBZZFuRiA8k/hoLX88rO/gFAw=
 			</data>
 		</dict>
 		<key>DeviceTipView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GkSF7EHCG4YTrMmdu2uVV9ATxgM=
+			GxmCz5Ka+k3VvJc8tVj9NOB8hmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			q6XBPjFt65hO/im0XctmWkGkZj/pYKTLuxVvWqRwS3I=
+			x3D1lwjn8vLsUfv70k3Gu9zHm3+gABHs3D2W3z41yqc=
 			</data>
 		</dict>
 		<key>HETFullScreenErrorView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DYXgPZB4/Umzk3sS6v/vRwxT6ek=
+			lWL6OwRY6Gp421CUypXbo4LftwI=
 			</data>
 			<key>hash2</key>
 			<data>
-			uYtSMKMDCg4z/w3gfO0dT05PV/eea97MfKscw5OlVhg=
+			6JhXAwnS8QTF6W30pxi0zuylJMontIa+gITXpLADv58=
 			</data>
 		</dict>
 		<key>HETFullScreenErrorView.strings</key>
@@ -537,11 +537,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LH+EONKz2tDYXVdURCPU2IdpfK4=
+			bv2CinJXnzBnj7KV8u8bKJwXgq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			mjmWgDd/d9DQD7IETOy1bJV4aJYg9/8xGD5cQtWr+jo=
+			2tDfgOMxkrAdMDhKRuC9wvnWepcCA2G5iPXvprm+Mhs=
 			</data>
 		</dict>
 		<key>Headers/HETOpenSleepSDKHelper.h</key>
@@ -592,11 +592,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+W+mhsVvLFLOC7y0HKb2qUql+JE=
+			dPNs0v6DdDf3BlMja2pbzevB7Lw=
 			</data>
 			<key>hash2</key>
 			<data>
-			NkeOv6Ci62DXhSSDRAucxTgTjP8DyhC7DzblI7rZnQw=
+			rVNNtAYwuwSS9QrGD71n2X9PFeyi8vQ4OPn+eJH8Dgk=
 			</data>
 		</dict>
 		<key>Headers/HETUIConfig.h</key>

@@ -27,7 +27,7 @@ FOUNDATION_EXPORT const unsigned char HETOpenSleepCoreSDKVersionString[];
 #import "HETCalendarView.h"
 #import "DeviceTipView.h"
 #import "HETFullScreenErrorView.h"
-#import "HETCommonHelp.h"
+
 
 #import "NSDate+Helpers.h"
 #import "NSDate+SSToolkitAdditions.h"

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B00A91C21B50AC5003DF6B8 /* AppDelegate+SDKUIConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B00A91B21B50AC5003DF6B8 /* AppDelegate+SDKUIConfig.mm */; };
 		1B44C89021928548000EAAA4 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB18219127C300DD8846 /* HomePageVC.m */; };
 		1B44C8912192854B000EAAA4 /* AuthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB16219127C300DD8846 /* AuthVC.m */; };
 		1BAECB2B219127C400DD8846 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAECB0D219127C300DD8846 /* AppDelegate.m */; };
@@ -35,6 +36,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B00A91A21B50AC5003DF6B8 /* AppDelegate+SDKUIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+SDKUIConfig.h"; sourceTree = "<group>"; };
+		1B00A91B21B50AC5003DF6B8 /* AppDelegate+SDKUIConfig.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "AppDelegate+SDKUIConfig.mm"; sourceTree = "<group>"; };
 		1BAECAF12191268A00DD8846 /* HETKunYuanDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HETKunYuanDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAECB0C219127C300DD8846 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BAECB0D219127C300DD8846 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B00A91921B50AC5003DF6B8 /* Appdelegate+SDKUIConfig */ = {
+			isa = PBXGroup;
+			children = (
+				1B00A91A21B50AC5003DF6B8 /* AppDelegate+SDKUIConfig.h */,
+				1B00A91B21B50AC5003DF6B8 /* AppDelegate+SDKUIConfig.mm */,
+			);
+			path = "Appdelegate+SDKUIConfig";
+			sourceTree = "<group>";
+		};
 		1BAECAE82191268A00DD8846 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +122,7 @@
 		1BAECB0B219127C300DD8846 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				1B00A91921B50AC5003DF6B8 /* Appdelegate+SDKUIConfig */,
 				1BAECB0C219127C300DD8846 /* AppDelegate.h */,
 				1BAECB0D219127C300DD8846 /* AppDelegate.m */,
 			);
@@ -370,6 +383,7 @@
 				1BAECB33219127C400DD8846 /* main.m in Sources */,
 				1BAECB2C219127C400DD8846 /* Tools.m in Sources */,
 				1B44C8912192854B000EAAA4 /* AuthVC.m in Sources */,
+				1B00A91C21B50AC5003DF6B8 /* AppDelegate+SDKUIConfig.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <MagicalRecord/MagicalRecord.h>
+#import "AppDelegate+SDKUIConfig.h"
 
 @interface AppDelegate ()
 @property(nonatomic,strong) NSManagedObjectContext *managedObjectContext;
@@ -22,10 +23,11 @@
     [HETOpenSDK registerAppId:kHETAppId appSecret:kHETAppSecret];
     [HETOpenSDK openLog:YES];
     [AppDelegate enviromentInit];
-
+    
     [self initCoreData];
     [MagicalRecord setupCoreDataStack];
     
+    [self SDKUIConfig];
     return YES;
 }
 
@@ -58,7 +60,7 @@
 
 - (void)initCoreData{
     NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Model" withExtension:@"momd"];
-
+    
     NSManagedObjectModel *model = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     
     
@@ -84,11 +86,11 @@
         NSLog(@"添加数据库成功");
     }
     
-
+    
     NSManagedObjectContext *context = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
     
     context.persistentStoreCoordinator = store;
-
+    
     _managedObjectContext = context;
 }
 
@@ -127,3 +129,4 @@
     }
 }
 @end
+

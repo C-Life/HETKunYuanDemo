@@ -91,6 +91,37 @@ typedef void(^RefreshBlock)(void);
 +(void (^)(UIScrollView *scroll))endRefreshFooter;
 
 /**
- * 错误提示view定制
+ * 颜色定制
  */
+
+@property (nonatomic,strong,class) UIColor *color1;
+@property (nonatomic,strong,class) UIColor *color2;
+@property (strong,nonatomic,class)UIColor *color3;
+@property (strong,nonatomic,class)UIColor *color4;
+@property (strong,nonatomic,class)UIColor *color5;
+@property (strong,nonatomic,class)UIColor *color6;
+@property (strong,nonatomic,class)UIColor *color7;
+@property (strong,nonatomic,class)UIColor *color8;
+@property (strong,nonatomic,class)UIColor *color9;
+@property (strong,nonatomic,class)UIColor *color10;
+@property (strong,nonatomic,class)UIColor *color11;
+@property (strong,nonatomic,class)UIColor *color12;
+@property (strong,nonatomic,class)UIColor *color13;
+@property (strong,nonatomic,class)UIColor *color14;
+@property (strong,nonatomic,class)UIColor *color15;
+@property (strong,nonatomic,class)UIColor *color16;
+@property (strong,nonatomic,class)UIColor *color17;
+@property (strong,nonatomic,class)UIColor *color18;
+@property (strong,nonatomic,class)UIColor *color19;
+@property (strong,nonatomic,class)UIColor *color20;
+@property (strong,nonatomic,class)UIColor *color21;
+@property (strong,nonatomic,class)UIColor *color22;
+@property (strong,nonatomic,class)UIColor *color23;
+@property (strong,nonatomic,class)UIColor *color24;
+@property (strong,nonatomic,class)UIColor *color25;
+@property (strong,nonatomic,class)UIColor *color26;
+@property (strong,nonatomic,class)UIColor *color27;
+@property (strong,nonatomic,class)UIColor *color28;
+@property (strong,nonatomic,class)UIColor *color29;
+
 @end
