@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		hMql3z+MG/WnKYgxu5UNXb2WJr8=
+		il0cETMKSJOsw1njrqWI+5025qA=
 		</data>
 		<key>HETBindSDKBindTip.html</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>HETBleBindTipVC.nib</key>
 		<data>
-		N57jNquEHl9tXh67CS/5JQz2sqY=
+		6swjTLRcNguBEvzVBY6xc/N8Xec=
 		</data>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eIBgp1Gf3qilh/iNAmKEsu0N8Og=
+		lyorqGx1LKL8Yg41KFgYdg0JUBY=
 		</data>
 		<key>MJRefresh.bundle/arrow@2x.png</key>
 		<data>
@@ -243,11 +243,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hMql3z+MG/WnKYgxu5UNXb2WJr8=
+			il0cETMKSJOsw1njrqWI+5025qA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XLlMRnXYI58a2QglPDsivX1hSNxIHe22Qf6uldQVyaE=
+			k4wbegk+2hpEHP31WAtZnf1EB+7DXY1wXiWxvMIG6hA=
 			</data>
 		</dict>
 		<key>HETBindSDKBindTip.html</key>
@@ -265,11 +265,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N57jNquEHl9tXh67CS/5JQz2sqY=
+			6swjTLRcNguBEvzVBY6xc/N8Xec=
 			</data>
 			<key>hash2</key>
 			<data>
-			4davhFKFYTOnPQfjjq93jAfnDehGJGWimAgQ1ZI1QQU=
+			OUXOzppyqkmOs0kDl0hrwwRDcAoyePHnBGqnWkdYt24=
 			</data>
 		</dict>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>

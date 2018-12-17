@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		KPfzi3BixhiUX2DVjJ3bxsTtOvg=
+		jHwzGIwuXAhYeTKQ2ZnvVZ+yFg0=
 		</data>
 		<key>Core_Loading_1@3x.png</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>DetailCell2.nib</key>
 		<data>
-		trjD0l8+oOKxz8iOnOJF7tXJSJ4=
+		6A3YjTIUWCwSwV11mdX2oeeKtOA=
 		</data>
 		<key>DetailNameCell.nib</key>
 		<data>
-		J1wWlbEfCIHDJdgJTZm+o/fE27I=
+		UCw2iDWFO69ASffa+VJdHVHv34A=
 		</data>
 		<key>DetailUnbindCell.nib</key>
 		<data>
-		UaHRPTTy6nzmmpQkekF6WEBEO7g=
+		Kt+qBXd5asAGeSEPx9cJf2v3b90=
 		</data>
 		<key>HETDeviceNickRoomController.nib</key>
 		<data>
-		/wG4N1aufBQcqn9/Tv6WaqMhtd8=
+		qM11wDahW1oNpZxqNKIBiv1ZrdM=
 		</data>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		C3yrnXbB078UVga7RPbQ6noFfYE=
+		lTj5S4CiGKAodXPRh8UwSl9HfRM=
 		</data>
 		<key>MJRefresh.bundle/arrow@2x.png</key>
 		<data>
@@ -271,11 +271,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KPfzi3BixhiUX2DVjJ3bxsTtOvg=
+			jHwzGIwuXAhYeTKQ2ZnvVZ+yFg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			WL2vK3WIvU7qN5HdVArlgp1B8VaGnbcIp0NTNCCjy2E=
+			YXyyfxt+2a8MsSSh0DmYGuowhVnauk6f7jeDp+IfrvY=
 			</data>
 		</dict>
 		<key>Core_Loading_1@3x.png</key>
@@ -348,44 +348,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			trjD0l8+oOKxz8iOnOJF7tXJSJ4=
+			6A3YjTIUWCwSwV11mdX2oeeKtOA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7z2U9sZ7HsMTEQLgC71URUJV+/hAAs5weZadlsXGKeU=
+			tLQ8bSuUcUvJAlZmc+jWdqI1SnIRLBDoDL81mZERXAE=
 			</data>
 		</dict>
 		<key>DetailNameCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J1wWlbEfCIHDJdgJTZm+o/fE27I=
+			UCw2iDWFO69ASffa+VJdHVHv34A=
 			</data>
 			<key>hash2</key>
 			<data>
-			VWUM5EEgEOXsBeG6Eh84JS7T5Y1CnEE1ydVAZOGpiL0=
+			tWvfE8QEeuAYqqu2w1uaCBMxOXm89Q9i9iuIdS4u4l0=
 			</data>
 		</dict>
 		<key>DetailUnbindCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UaHRPTTy6nzmmpQkekF6WEBEO7g=
+			Kt+qBXd5asAGeSEPx9cJf2v3b90=
 			</data>
 			<key>hash2</key>
 			<data>
-			SPAM+GmH2suoErtRte3VVZClcKJWwLeLMeLWys4Holo=
+			l3F2QzP13Jd8hcSip1tnrKAZfFupbr9EqefP5vgjqXw=
 			</data>
 		</dict>
 		<key>HETDeviceNickRoomController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/wG4N1aufBQcqn9/Tv6WaqMhtd8=
+			qM11wDahW1oNpZxqNKIBiv1ZrdM=
 			</data>
 			<key>hash2</key>
 			<data>
-			OwU9ST3EE66PwBRFJzip0WcWscHvBrgq4TXKznHcQlQ=
+			t6OtwN5J4WmfgMUnZS1akJtqJUmi5OK1aeB/8Ez0wm8=
 			</data>
 		</dict>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
