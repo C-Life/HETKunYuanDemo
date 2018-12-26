@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		jHwzGIwuXAhYeTKQ2ZnvVZ+yFg0=
+		jw/21GGAxKzyBWf/UG7wbA4J/5o=
 		</data>
 		<key>Core_Loading_1@3x.png</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>DetailCell2.nib</key>
 		<data>
-		6A3YjTIUWCwSwV11mdX2oeeKtOA=
+		VEX4M/zIZEHG0bnQ52b3Ej+ECks=
 		</data>
 		<key>DetailNameCell.nib</key>
 		<data>
-		UCw2iDWFO69ASffa+VJdHVHv34A=
+		KOxs5IQNgMur+TjbCxA86FSjJw4=
 		</data>
 		<key>DetailUnbindCell.nib</key>
 		<data>
-		Kt+qBXd5asAGeSEPx9cJf2v3b90=
+		6B1lNPPVAdDlTNIe9uzM9T9A8Wg=
 		</data>
 		<key>HETDeviceNickRoomController.nib</key>
 		<data>
-		qM11wDahW1oNpZxqNKIBiv1ZrdM=
+		9ojnXuFkzW4a4pxbtnLFAByCsOY=
 		</data>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
 		<data>
@@ -271,11 +271,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jHwzGIwuXAhYeTKQ2ZnvVZ+yFg0=
+			jw/21GGAxKzyBWf/UG7wbA4J/5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			YXyyfxt+2a8MsSSh0DmYGuowhVnauk6f7jeDp+IfrvY=
+			S4qe14XnXON6YIT6nb317NPzoPesBGL7g5QMeoir+S8=
 			</data>
 		</dict>
 		<key>Core_Loading_1@3x.png</key>
@@ -348,44 +348,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6A3YjTIUWCwSwV11mdX2oeeKtOA=
+			VEX4M/zIZEHG0bnQ52b3Ej+ECks=
 			</data>
 			<key>hash2</key>
 			<data>
-			tLQ8bSuUcUvJAlZmc+jWdqI1SnIRLBDoDL81mZERXAE=
+			+7ghK0TX5gYgDhLkoxt/0IbjjDOKz8Zf+U7IsM1fjNo=
 			</data>
 		</dict>
 		<key>DetailNameCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UCw2iDWFO69ASffa+VJdHVHv34A=
+			KOxs5IQNgMur+TjbCxA86FSjJw4=
 			</data>
 			<key>hash2</key>
 			<data>
-			tWvfE8QEeuAYqqu2w1uaCBMxOXm89Q9i9iuIdS4u4l0=
+			a1nuKdOj9UkKyCuEwlEZO2rpz91Jk5GhP78DBM/uuko=
 			</data>
 		</dict>
 		<key>DetailUnbindCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kt+qBXd5asAGeSEPx9cJf2v3b90=
+			6B1lNPPVAdDlTNIe9uzM9T9A8Wg=
 			</data>
 			<key>hash2</key>
 			<data>
-			l3F2QzP13Jd8hcSip1tnrKAZfFupbr9EqefP5vgjqXw=
+			lt6/qSkeCbCw5WWPwiYZbFZpsDSFi7PrMFdtryMvnTk=
 			</data>
 		</dict>
 		<key>HETDeviceNickRoomController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qM11wDahW1oNpZxqNKIBiv1ZrdM=
+			9ojnXuFkzW4a4pxbtnLFAByCsOY=
 			</data>
 			<key>hash2</key>
 			<data>
-			t6OtwN5J4WmfgMUnZS1akJtqJUmi5OK1aeB/8Ez0wm8=
+			SXMWM44OiNmvT6T8msIusPxcpSLBukQ0zZ545DHMcTY=
 			</data>
 		</dict>
 		<key>HETOpenSDK.bundle/nav_back_black@2x.png</key>
