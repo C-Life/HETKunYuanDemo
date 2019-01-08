@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name = "HETSleepFramework"
-    s.version = "0.0.8"
+    s.version = "0.0.9"
     s.summary = "H&T开放平台SDK"
     s.ios.deployment_target = '8.0'
     s.homepage     = "https://github.com/C-Life/HETOpenSDK-for-iOS"

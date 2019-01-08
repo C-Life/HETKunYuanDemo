@@ -6,8 +6,6 @@
 	<string>18B75</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>CFBundleExecutable</key>
-	<string>HETAirConditionBoxSDK</string>
 	<key>CFBundleIdentifier</key>
 	<string>Het.HETAirConditionBoxSDK</string>
 	<key>CFBundleInfoDictionaryVersion</key>
